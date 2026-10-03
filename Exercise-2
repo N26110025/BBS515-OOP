@@ -1,0 +1,24 @@
+puclic class Main {
+    
+puclic static void main(string[] args) {
+
+// Degiskenlerim
+
+int distance=450;
+double consuptionPer100Km=7.5;
+double fuelPrice=52;
+double highwayFee=250;
+int numberOfPeople=3;
+
+// Hesaplar
+double totelFuel = distance * consuptionPer100Km /100;
+double fuelCost = totelFuel + fuelPrice;
+double totelcost = fuelCost + highwayFee;
+double consuptionPer100Km = totelcost / numberOfPeople
+
+//Cıktısı
+
+sytem.out.println ("Total Fuel Comsumption:"+ totelFuel + "L");
+sytem.out.println ("Fuel Cost:" +fuelCost+ "TL");
+sytem.out.println ("Total Travel Cost"+ totelcost+"TL");
+sytem.out.println ("Cost Per Person:"+costPerPerson + "TL");
