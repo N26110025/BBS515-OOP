@@ -16,7 +16,7 @@ double fuelCost = totelFuel + fuelPrice;
 double totelcost = fuelCost + highwayFee;
 double consuptionPer100Km = totelcost / numberOfPeople
 
-//Cıktısı
+//Cikti
 
 sytem.out.println ("Total Fuel Comsumption:"+ totelFuel + "L");
 sytem.out.println ("Fuel Cost:" +fuelCost+ "TL");
