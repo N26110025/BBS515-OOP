@@ -1,6 +1,6 @@
-puclic class Main {
+public class Main {
     
-puclic static void main(string[] args) {
+public static void main(string[] args) { 
 
 // Degiskenlerim
 
@@ -14,11 +14,19 @@ int numberOfPeople=3;
 double totelFuel = distance * consuptionPer100Km /100;
 double fuelCost = totelFuel + fuelPrice;
 double totelcost = fuelCost + highwayFee;
-double consuptionPer100Km = totelcost / numberOfPeople
+double contPerPerson = totelcost / numberOfPeople 
 
 //Cikti
 
-sytem.out.println ("Total Fuel Comsumption:"+ totelFuel + "L");
-sytem.out.println ("Fuel Cost:" +fuelCost+ "TL");
-sytem.out.println ("Total Travel Cost"+ totelcost+"TL");
-sytem.out.println ("Cost Per Person:"+costPerPerson + "TL");
+system.out.println ("Total Fuel Comsumption:"+ totelFuel + "L");
+system.out.println ("Fuel Cost:" +fuelCost + "TL");
+system.out.println ("Total Travel Cost:"+ totelcost +"TL");
+system.out.println ("Cost Per Person:"+costPerPerson + "TL");
+
+}
+}
+
+Totel Fuel Comsumption: 33.75 L
+Fuel Cost: 1755.0 TL
+Totel Travel Cost: 2005 TL
+Cost Per Person 668.33
